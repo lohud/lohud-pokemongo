@@ -1,0 +1,54 @@
+.row {
+	max-width: 100%;
+	/*background-color: gray;*/
+}
+
+#map {
+	height: 100vh;
+}
+
+.centered {
+	text-align: center;
+}
+
+[contenteditable]:hover:after {
+  content: ' click to edit';
+  font-style: italic;
+  font-size: 12px;
+  font-family: sans-serif;
+  color: #ccc;
+  .text-stroke(0);
+}
+
+[contenteditable]:hover, [contenteditable]:focus {
+  background: #FFFFD3;
+}
+
+[contenteditable]:focus {
+  padding: 5px;
+}
+
+[contenteditable]:focus:after {
+  content: '';
+}
+
+.leaflet-control-layers-list {
+  margin:0px;
+  height:auto;
+}
+
+.cards {
+  background-color:white;
+  padding:10px;
+  margin:10px;
+  border: solid 1px;
+  border-color: #e8e8e8;
+}
+
+body {
+  font-size:75% !important;
+}
+
+.leaflet-popup-content {
+  width: 72px; !important
+}
